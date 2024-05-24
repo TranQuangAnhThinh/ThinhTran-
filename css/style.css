@@ -1,0 +1,169 @@
+body{
+	margin: 0;font-size: 18px
+}
+header{
+	width: 100%;height: 60px;border-bottom: 1px solid white
+}
+.banner {
+  width: 100%;
+  min-height: 500px;
+  position: relative
+}
+.caption {
+  width: 50%;
+	text-align: right;
+  position: absolute;
+  top: 10%;
+	right: 10%	
+}
+.caption h1 {
+  color: darkred
+}
+.caption p {
+  color: white
+}
+.vien:hover .icon{
+	top: 40%
+}
+.logo{
+	padding-top: 25px;padding-left: 100px
+}
+.menu ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex
+}
+.menu {
+  padding-top: 20px
+}
+.menu ul li a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #2E2E2E
+}
+.menu ul li a:hover{
+  background-color: rgba(172,172,172,0.60);
+  color: white;border-radius: 20px}
+.icon {
+  width: 80%;
+  height: 45px;
+  position: absolute;
+  left: 10%;
+  top: -15%;
+  display: flex;
+  justify-content: space-around;
+  transition: all 1s
+}
+.icon a {
+  width: 45px;
+  height: 45px;
+  background-color: darkred;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none
+}
+.icon a:hover {
+  background-color: darkgray;
+  color: darkred
+}
+.caption p {
+  color: white
+}
+.text-do {
+  color: red
+}
+.vien {
+  border: 1px solid darkred;
+  border-radius: 8px;
+  padding: 8px;
+  position: relative;
+  overflow: hidden
+}
+main{
+	width: 100%;min-height: 800px
+}
+#feature{
+	width: 100%;min-height: 700px;background-image:url("../images/bg2.png");background-repeat: no-repeat;background-size: cover;background-position: bottom center
+}
+.gach-chan{
+	border-bottom: 2px solid darkred
+}
+.pt-30{
+	padding-top: 30px
+}
+.text-do{
+	color: darkred
+}
+.vien-trang{
+	width: 100%;border: 1px solid white;padding: 30px
+}
+#feature a{
+	text-decoration: none;color: darkred;cursor: pointer
+}
+#feature a:hover{
+	color: white
+}
+#contact{
+	width: 100%;min-height: 600px;background-image: url("../images/Banner2.png");background-repeat: no-repeat;background-size: cover;background-position: center center
+}
+.shadow{
+	width: 100%;min-height: 300px;border: 1px solid darkgray;box-shadow: 5px 5px 5px gray;padding: 30px
+}
+.form-control{
+	padding: 8px;width: 100%;margin-bottom: 10px
+}
+#feature{
+	width: 100%
+}
+#slide .owl-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 45%;
+}
+#slide .owl-dots .owl-dot span {
+  width: 12px;
+  height: 12px;
+}
+#slide .owl-nav {
+  position: absolute;
+  left: 0px;
+  top: 40%;
+  width: 100%;
+}
+#slide .owl-nav [class*='owl-'] {
+  font-size: 60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+#slide .owl-nav .owl-next {
+  position: absolute;
+  right: 5%;
+}
+#slide .owl-nav .owl-prev {
+  position: absolute;
+  left: 5%;
+}
+#slide .owl-nav [class*='owl-']:hover {
+  background: none;
+  border: none;
+  color: yellow;
+  text-decoration: none;
+}
+footer{
+	width: 100%;height: 50px;background-color: #F7B247; clear: both; color: white;text-align: center;line-height:50px
+		}
+.w-40{
+	width: 40% ; min-height: 300px;padding: 15px;float: left 
+		}
+.w-60{
+	width: 60% ; min-height: 300px;padding: 15px;float: right }
+.text-xanh{
+	color: blue
+		}
+.vien-xam{ 
+	border: 1px solid gray; min-height: 300px;border-radius: 5px;padding: 10px ; magin: 15px 0px
+		}	
+.form-control{border-radius:10px; padding: 10px; margin-bottom:15px}
+.button{background-color:blue; padding:10px 20px; color:white;cursor: pointer; border-radius: 15px}
